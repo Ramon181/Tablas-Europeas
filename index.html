@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ligas de Europa</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="https://api.iconify.design/openmoji/soccer-ball.svg" type="image/x-icon">
+  </head>
+  <body>
+    <nav class="navMenu">
+      <a href="#" data-filter="Premier League" class="selected">Premier League</a>
+      <a href="#" data-filter="LaLiga">LaLiga</a>
+      <a href="#" data-filter="Serie A">Serie A</a>
+      <a href="#" data-filter="Bundesliga">Bundesliga</a>
+      <a href="#" data-filter="Ligue 1">Ligue 1</a>
+    </nav>
+    <div class="tables">
+      <main>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Club</th>
+              <th>PJ</th>
+              <th>G</th>
+              <th>E</th>
+              <th>P</th>
+              <th>GF</th>
+              <th>GC</th>
+              <th>DG</th>
+              <th>Pts</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </main>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
